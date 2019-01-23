@@ -80,3 +80,4 @@ function getBranches(el){
   req.open('GET', uri);
   req.send();
   return false;
+}
