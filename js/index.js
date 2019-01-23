@@ -71,7 +71,7 @@ function getCommits(el){
 }
 
 function getBranches(el){
-  var repoName = el.dataset.repository
+  var repoName = el.dataset.repository;
   var name = document.getElementById('username').value;
   var uri = rootURL + '/repos/' + name + '/' + repoName + '/branches';
   const req  = new XMLHttpRequest();
